@@ -353,7 +353,7 @@ public class FmService extends Service implements FmRecorder.OnRecorderStateChan
      * @return true, antenna available; false, antenna not available
      */
     public boolean isAntennaAvailable() {
-        return mAudioManager.isWiredHeadsetOn();
+        return true;
     }
 
     private void setForceUse(boolean isSpeaker) {
